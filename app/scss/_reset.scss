@@ -50,4 +50,9 @@ button,
 textarea,
 select {
   font: inherit;
+
+}
+
+input:focus {
+  outline: none;
 }
