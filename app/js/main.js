@@ -36,6 +36,28 @@ $(function () {
   })
 });
 
+$(function () {
+  $('.shop-content__filter-btn').on('click', function () {
+    $('.shop-content__filter-btn').removeClass('shop-content__filter-btn--active');
+    $(this).addClass('shop-content__filter-btn--active');
+  })
+});
+
+$(function () {
+  $('.button-list').on('click', function () {
+    $('.product-item').addClass('product-item--list');
+  });
+
+  $('.button-grid').on('click', function () {
+    $('.product-item').removeClass('product-item--list');
+  });
+});
+
+$(function () {
+
+  $('.select-style').styler();
+});
+
 function getTimeRemaining(endtime) {
   const total = Date.parse(endtime) - Date.parse(new Date());
   const seconds = Math.floor((total / 1000) % 60);
