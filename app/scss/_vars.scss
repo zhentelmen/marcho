@@ -33,7 +33,8 @@ $brd: #ececec;
   @extend %roboto-400;
 }
 
-%checkbox-hidden {
+%checkbox-hidden,
+%radio-hidden {
   height: 1px;
   width: 1px;
   overflow: hidden;
