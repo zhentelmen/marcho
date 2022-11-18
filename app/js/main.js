@@ -136,3 +136,16 @@ function initializeClock(id, endtime) {
 const deadline = $('.promo__clock').attr('data-time');
 // new Date(Date.parse(new Date()) + 14 * 24 * 60 * 60 * 1000);
 initializeClock('.promo__clock', deadline);
+
+
+
+// $(function () {
+  // let map;
+
+  // function initMap () {
+  //   map = new google.maps.Map(document.getElementById('map'), {
+  //     center: { lat: -34.397, lng: 150.644 },
+  //     zoom: 8,
+  //   });
+  // }
+// });
